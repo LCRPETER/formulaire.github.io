@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
+  background: #c3c3c3;
+  padding: 20px;
+  color: white;
+}
+form {
+  height: 240px;
+  min-width: 478px;
+  width: 80%;
+  max-width: 555px;
+  background: #008e6d;
+}
+input,
+label {
+  height: 30px;
+  width: 160px;
+  margin: 15px;
+  font-size: 1.1rem;
+}
+input:focus {
+  border: none;
+  outline: none;
+  background: #f2f2f2;
+}
+input[type="submit"] {
+  border: none;
+  border-radius: 10px;
+  background: #c3c3c3;
+  cursor: pointer;
+  transition: 0.5s;
+  width: 100px;
+}
+input[type="submit"]:hover {
+  transform: scale(1.1);
+  background: #f2f2f2;
+}
